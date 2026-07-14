@@ -1,0 +1,10 @@
+@import "./theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply w-full bg-elevated border border-border rounded-md px-3 py-2 text-sm outline-none focus:border-accent transition-colors;
+  }
+}

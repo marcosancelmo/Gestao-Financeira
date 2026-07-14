@@ -1,0 +1,20 @@
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Dados locais (não versionar)
+database/financeiro.db
+backups/*.db
+backend/app/uploads/*
+!backend/app/uploads/.gitkeep
+
+# Editor
+.vscode/
+.idea/
