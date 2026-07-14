@@ -95,3 +95,5 @@ apontando as chamadas `/api` para o backend.
   no modelo, falta a tela de consulta.
 - Tema claro (hoje só o escuro está implementado).
 - Alertas visuais de contas vencidas na tela de Contas a Receber/Pagar.
+
+# Gestao-Financeira
