@@ -1,12 +1,12 @@
-# RM Serralheria — Sistema Financeiro
+# Sistema Financeiro
 
-Sistema completo de controle financeiro para a RM Serralheria, com backend em **FastAPI + SQLAlchemy + SQLite**
+Sistema completo de controle financeiro para a pequena empresa, com backend em **FastAPI + SQLAlchemy + SQLite**
 e frontend em **React + Vite + Tailwind + React Query + Recharts**.
 
 ## Estrutura
 
 ```
-rm-serralheria/
+Sistema-Financeiro/
   backend/          FastAPI (API REST + banco SQLite)
   frontend/         React + Vite (interface)
   database/         Arquivo financeiro.db (criado automaticamente)
@@ -15,15 +15,15 @@ rm-serralheria/
 
 ## Papéis de usuário
 
-- **Supervisor** (Ronaldo) — acesso completo: dashboards, relatórios, configurações, backup e usuários.
-- **Colaborador** (Felipe) — lança e consulta movimentações, mas não acessa Configurações/Backup/Usuários.
+- **Supervisor**  — acesso completo: dashboards, relatórios, configurações, backup e usuários.
+- **Colaborador** — lança e consulta movimentações, mas não acessa Configurações/Backup/Usuários.
 
 Usuários criados automaticamente no primeiro início (senha `mudar123` — **troque assim que possível**):
 
 | Usuário   | Login     | Papel        |
 |-----------|-----------|--------------|
-| Ronaldo   | `ronaldo` | supervisor   |
-| Felipe    | `felipe`  | colaborador  |
+| Supervisor   | `supervisor` | supervisor   |
+| Colaborador  | `colaborador`| colaborador  |
 
 ## Como rodar localmente (Windows / PowerShell)
 
